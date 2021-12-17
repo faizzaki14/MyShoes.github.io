@@ -284,10 +284,17 @@
       var swiper = new Swiper(".swiper-container", {
         slidesPerView: 4,
         loop: true,
+        breakpoints: {
+      670: {
+        slidesPerView: 2,
+        spaceBetween: 50,
+      }
+    },
         navigation: {
           nextEl: ".swiper-button-next-unique",
           prevEl: ".swiper-button-prev-unique",
         },
+
       });
     </script>
     <script>
