@@ -1,44 +1,49 @@
 /* MAKE MEDIA QUERRY MAX-WIDTH 670PX */
 @media only screen and (max-width: 670px) {
-    /* Make the navbar fixed */
-    .navbar {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-    /* Make the navbar stick to the top of the page */
-    .navbar {
-        z-index: 1;
-    }
-    /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
-        margin-bottom: 0;
-        border-radius: 0;
-    }
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {
-        height: 450px;
-    }
-    /* Set gray background color and 100% height */
-    .sidenav {
-        padding-top: 20px;
-        background-color: #f1f1f1;
-        height: 100%;
-    }
-    /* Set black background color, white text and some padding */
-    footer {
-        background-color: #555;
-        color: white;
-        padding: 15px;
-    }
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-        .sidenav {
-            height: auto;
-            padding: 15px;
-        }
-        .row.content {
-            height: auto;
-        }
-    }
+  /* Make the navbar fixed */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  /* Make the navbar stick to the top of the page */
+  .navbar {
+    z-index: 1;
+  }
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  .main-content .container {
+    margin: auto;
+    flex-direction: column-reverse;
+  }
+  .main-content .container p {
+    width: 30em;
+  }
+  .contact-us{
+    width: 25em;
+  }
+  .judul-heading{
+    width: 15em;
+  }
+  .tittle-image {
+    margin: 0 25%;
+    padding-bottom: 2em;
+  }
+  .typing-demo {
+    margin: auto;
+    font-size: 0.8em;
+  }
+  .container-card {
+      flex-direction: column;
+  }
+  .card{
+      width: 80%;
+  }
+  .input-container {
+    width: 80%;
+    margin: 5% ;
+  }
 }
