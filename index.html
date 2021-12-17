@@ -127,7 +127,7 @@
         </div>
         <br><br>
         <div class="swiper-container">  
-          <div class="swiper-wrapper" style="display: flex; grid-gap: 10%">
+          <div class="swiper-wrapper" style="display: flex; grid-gap: 5%">
             <div class="swiper-slide">
               <!-- Produk 1 -->
               <div class="card-swipe">
@@ -284,16 +284,15 @@
       var swiper = new Swiper(".swiper-container", {
         slidesPerView: 4,
         loop: true,
-        breakpoints: {
-      670: {
-        slidesPerView: 2,
-        spaceBetween: 50,
-      }
-    },
         navigation: {
           nextEl: ".swiper-button-next-unique",
           prevEl: ".swiper-button-prev-unique",
         },
+        breakpoints: {
+      670: {
+        slidesPerView: 2,
+      }
+    },
 
       });
     </script>
