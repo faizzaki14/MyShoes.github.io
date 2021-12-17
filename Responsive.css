@@ -22,10 +22,10 @@
   .main-content .container p {
     width: 30em;
   }
-  .contact-us{
+  .contact-us {
     width: 25em;
   }
-  .judul-heading{
+  .judul-heading {
     width: 15em;
   }
   .tittle-image {
@@ -37,13 +37,15 @@
     font-size: 0.8em;
   }
   .container-card {
-      flex-direction: column;
+    flex-direction: column;
   }
-  .card{
-      width: 80%;
+  .card {
+    width: 60%;
+    margin: 0 17%;
+    text-align: center;
   }
   .input-container {
     width: 80%;
-    margin: 5% ;
+    margin: 5%;
   }
 }
