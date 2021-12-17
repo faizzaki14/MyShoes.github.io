@@ -49,3 +49,24 @@
     margin: 5%;
   }
 }
+@media only screen and (max-width: 1000px) {
+  .tittle-content {
+    width: 55%;
+    padding-right: 10%;
+  }
+  .main-content h1 {
+    font-size: 1.2em;
+  }
+  .tittle-image {
+    margin: 0;
+  }
+  .tittle-image > img {
+    width: 3px;
+  }
+  .container-card {
+    grid-gap: 0;
+  }
+  .container-card > .card {
+    width: 25em;
+  }
+}
